@@ -1,0 +1,5 @@
+name = Custom Follow Networks
+description = Adds customized social media to Follow module
+package = Custom Modules
+core = 7.x
+files[] = jj_custom.module
