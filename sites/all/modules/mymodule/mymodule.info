@@ -1,0 +1,5 @@
+name = My Custom Module
+description = Changes authorship checkbox default behavior
+package = Custom
+core = 7.x
+files[] = mymodule.module
