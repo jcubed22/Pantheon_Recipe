@@ -1,0 +1,18 @@
+<?php
+//print $form_id; to find form name
+
+// print '<pre>';
+// print_r($form); Helps find particular pieces of form.
+// print '</pre>';
+
+//$form['additional_settings'] is all menu tabs.
+function simple_content_form_alter(&$form, &$form_state, $form_id) {
+    if($form_id === 'recipe_node_form' || $form_id === 'press_awards_node_form' || $form_id === 'tips_tricks_node_form') {
+        $form['revision_information']['#access'] = 0;
+        $form['author']['#access'] = 0;
+        $form['menu']['#access'] = 0;
+        $form['comment_settings']['#access'] = 0;
+        $form['comment_settings']['comment']['#default_value'] = 1;
+        $form['options']['#access'] = 0;
+    }
+}

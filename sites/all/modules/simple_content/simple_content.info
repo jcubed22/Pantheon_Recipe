@@ -1,0 +1,5 @@
+name = Simplified Content
+description = Simplifies custom content creation by removing extraneous menu tabs
+package = My Custom Modules
+core = 7.x
+files[] = simple_content.module
