@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'blessed_dayregular';
+    src: url('fonts/blessed_day/blesd____-webfont.eot');
+    src: url('fonts/blessed_day/blesd____-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/blessed_day/blesd____-webfont.woff2') format('woff2'),
+         url('fonts/blessed_day/blesd____-webfont.woff') format('woff'),
+         url('fonts/blessed_day/blesd____-webfont.ttf') format('truetype'),
+         url('fonts/blessed_day/blesd____-webfont.svg#blessed_dayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cookiemonstermedium';
+    src: url('fonts/cookie_monster/cookiemonster-webfont.eot');
+    src: url('fonts/cookie_monster/cookiemonster-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cookie_monster/cookiemonster-webfont.woff2') format('woff2'),
+         url('fonts/cookie_monster/cookiemonster-webfont.woff') format('woff'),
+         url('fonts/cookie_monster/cookiemonster-webfont.ttf') format('truetype'),
+         url('fonts/cookie_monster/cookiemonster-webfont.svg#cookiemonstermedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.region-mine {
+    text-align: center;
+}
+
+#site-name span{
+    font-family: 'Tangerine', cursive;
+    display: block;
+    font-size: 2em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+    marginb-bottom: 20px;
+    margin-start: 0;
+    margin-end: 0;
+    font-weight: bold;
+}
+
+#site-slogan {
+    margin-top: 20px;
+}
